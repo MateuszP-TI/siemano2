@@ -5,37 +5,43 @@
     padding: 0;
 }
 
-main#MAIN {
+main#main {
     display: flex;
+    gap: 10px;
+    padding: 10px;
 }
 
-aside#side {
+aside#bok {
     background-color: #C5CAE9;
-    width: 40%;
-    height: 600px;
+    width: 30%;
+    min-height: 600px;
     overflow: auto;
     padding: 10px;
 }
 
+main#main > .sekcje {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
 
-.S1 {
+.sekcja1 {
     background-color: #9FA8DA;
-    width: 100%;
     height: 300px;
-    margin-bottom: 10px;
     padding: 10px;
 }
 
-.S2 {
+.sekcja2 {
     background-color: #7986CB;
-    width: 100%;
     height: 300px;
     padding: 10px;
 }
 
-#FT {
+#footer {
     background-color: #283593;
     color: white;
     padding: 20px;
     text-align: center;
+    margin-top: 20px;
 }
